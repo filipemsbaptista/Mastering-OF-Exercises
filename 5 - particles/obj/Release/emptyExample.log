@@ -1,0 +1,22 @@
+﻿Build started 23/03/2015 16:47:07.
+     1>Project "C:\Program Files\openFrameworks\apps\myApps\5 - particles\emptyExample.vcxproj" on node 2 (Build target(s)).
+     1>Link:
+         emptyExample.vcxproj -> C:\Program Files\openFrameworks\apps\myApps\5 - particles\bin\emptyExample.exe
+       PostBuildEvent:
+         xcopy /e /i /y "C:\Program Files\openFrameworks\apps\myApps\5 - particles\..\..\..\export\vs\*.dll" "C:\Program Files\openFrameworks\apps\myApps\5 - particles\bin"
+         :VCEnd
+         C:\Program Files\openFrameworks\apps\myApps\5 - particles\..\..\..\export\vs\Assimp32.dll
+         C:\Program Files\openFrameworks\apps\myApps\5 - particles\..\..\..\export\vs\fmodex.dll
+         C:\Program Files\openFrameworks\apps\myApps\5 - particles\..\..\..\export\vs\fmodexL.dll
+         C:\Program Files\openFrameworks\apps\myApps\5 - particles\..\..\..\export\vs\FreeImage.dll
+         C:\Program Files\openFrameworks\apps\myApps\5 - particles\..\..\..\export\vs\FreeType-6.dll
+         C:\Program Files\openFrameworks\apps\myApps\5 - particles\..\..\..\export\vs\glut32.dll
+         C:\Program Files\openFrameworks\apps\myApps\5 - particles\..\..\..\export\vs\libeay32.dll
+         C:\Program Files\openFrameworks\apps\myApps\5 - particles\..\..\..\export\vs\ssleay32.dll
+         C:\Program Files\openFrameworks\apps\myApps\5 - particles\..\..\..\export\vs\Zlib.dll
+         9 File(s) copied
+     1>Done Building Project "C:\Program Files\openFrameworks\apps\myApps\5 - particles\emptyExample.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.44

@@ -1,0 +1,277 @@
+﻿Build started 17/03/2015 19:05:06.
+     1>Project "C:\Program Files\openFrameworks\apps\myApps\14 - motionDetection\opencvExample.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I..\..\..\libs\openFrameworks /I..\..\..\libs\openFrameworks\graphics /I..\..\..\libs\openFrameworks\app /I..\..\..\libs\openFrameworks\sound /I..\..\..\libs\openFrameworks\utils /I..\..\..\libs\openFrameworks\communication /I..\..\..\libs\openFrameworks\video /I..\..\..\libs\openFrameworks\types /I..\..\..\libs\openFrameworks\math /I..\..\..\libs\openFrameworks\3d /I..\..\..\libs\openFrameworks\gl /I..\..\..\libs\openFrameworks\events /I..\..\..\libs\glut\include /I..\..\..\libs\rtAudio\include /I..\..\..\libs\quicktime\include /I..\..\..\libs\freetype\include /I..\..\..\libs\freetype\include\freetype2 /I..\..\..\libs\freeImage\include /I..\..\..\libs\fmodex\include /I..\..\..\libs\videoInput\include /I..\..\..\libs\glew\include\ /I..\..\..\libs\glu\include /I..\..\..\libs\tess2\include /I..\..\..\libs\cairo\include\cairo /I..\..\..\libs\poco\include /I..\..\..\libs\glfw\include /I..\..\..\..\libs\openssl\include /I..\..\..\addons /I..\..\..\addons\libs /I..\..\..\addons\src /I..\..\..\addons\ofxOpenCv\libs /I..\..\..\addons\ofxOpenCv\libs\opencv /I..\..\..\addons\ofxOpenCv\libs\opencv\include /I..\..\..\addons\ofxOpenCv\libs\opencv\include\opencv /I..\..\..\addons\ofxOpenCv\libs\opencv\include\opencv2 /I..\..\..\addons\ofxOpenCv\libs\opencv\include\opencv2\calib3d /I..\..\..\addons\ofxOpenCv\libs\opencv\include\opencv2\contrib /I..\..\..\addons\ofxOpenCv\libs\opencv\include\opencv2\core /I..\..\..\addons\ofxOpenCv\libs\opencv\include\opencv2\features2d /I..\..\..\addons\ofxOpenCv\libs\opencv\include\opencv2\flann /I..\..\..\addons\ofxOpenCv\libs\opencv\include\opencv2\gpu /I..\..\..\addons\ofxOpenCv\libs\opencv\include\opencv2\highgui /I..\..\..\addons\ofxOpenCv\libs\opencv\include\opencv2\imgproc /I..\..\..\addons\ofxOpenCv\libs\opencv\include\opencv2\legacy /I..\..\..\addons\ofxOpenCv\libs\opencv\include\opencv2\ml /I..\..\..\addons\ofxOpenCv\libs\opencv\include\opencv2\objdetect /I..\..\..\addons\ofxOpenCv\libs\opencv\include\opencv2\ts /I..\..\..\addons\ofxOpenCv\libs\opencv\include\opencv2\video /I..\..\..\addons\ofxOpenCv\libs\opencv\lib /I..\..\..\addons\ofxOpenCv\libs\opencv\lib\linuxarmv6l /I..\..\..\addons\ofxOpenCv\libs\opencv\lib\linuxarmv7l /I..\..\..\addons\ofxOpenCv\libs\opencv\lib\vs /I..\..\..\addons\ofxOpenCv\src /Isrc /Zi /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D NDEBUG /D _CONSOLE /D POCO_STATIC /D CAIRO_WIN32_STATIC_BUILD /D DISABLE_SOME_FLOATING_POINT /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"obj\Release\\" /Fd"obj\Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt src\main.cpp src\ofApp.cpp ..\..\..\addons\ofxOpenCv\src\ofxCvImage.cpp ..\..\..\addons\ofxOpenCv\src\ofxCvFloatImage.cpp ..\..\..\addons\ofxOpenCv\src\ofxCvColorImage.cpp ..\..\..\addons\ofxOpenCv\src\ofxCvGrayscaleImage.cpp ..\..\..\addons\ofxOpenCv\src\ofxCvContourFinder.cpp ..\..\..\addons\ofxOpenCv\src\ofxCvShortImage.cpp ..\..\..\addons\ofxOpenCv\src\ofxCvHaarFinder.cpp
+         main.cpp
+     1>C:\Program Files\openFrameworks\libs\poco\include\Poco/StreamConverter.h(126): warning C4250: 'Poco::InputStreamConverter' : inherits 'std::basic_istream<_Elem,_Traits>::std::basic_istream<_Elem,_Traits>::_Add_vtordisp1' via dominance
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\istream(74) : see declaration of 'std::basic_istream<_Elem,_Traits>::_Add_vtordisp1'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+     1>C:\Program Files\openFrameworks\libs\poco\include\Poco/StreamConverter.h(144): warning C4250: 'Poco::OutputStreamConverter' : inherits 'std::basic_ostream<_Elem,_Traits>::std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2' via dominance
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\ostream(90) : see declaration of 'std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+         ofApp.cpp
+     1>C:\Program Files\openFrameworks\libs\poco\include\Poco/StreamConverter.h(126): warning C4250: 'Poco::InputStreamConverter' : inherits 'std::basic_istream<_Elem,_Traits>::std::basic_istream<_Elem,_Traits>::_Add_vtordisp1' via dominance
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\istream(74) : see declaration of 'std::basic_istream<_Elem,_Traits>::_Add_vtordisp1'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+     1>C:\Program Files\openFrameworks\libs\poco\include\Poco/StreamConverter.h(144): warning C4250: 'Poco::OutputStreamConverter' : inherits 'std::basic_ostream<_Elem,_Traits>::std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2' via dominance
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\ostream(90) : see declaration of 'std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+         ofxCvImage.cpp
+     1>C:\Program Files\openFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2/flann/flann.hpp(233): warning C4996: 'cv::flann::Index_<T>': was declared deprecated
+                 C:\Program Files\openFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2/flann/flann.hpp(278) : see reference to class template instantiation 'cv::flann::Index_<T>' being compiled
+     1>C:\Program Files\openFrameworks\libs\poco\include\Poco/StreamConverter.h(126): warning C4250: 'Poco::InputStreamConverter' : inherits 'std::basic_istream<_Elem,_Traits>::std::basic_istream<_Elem,_Traits>::_Add_vtordisp1' via dominance
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\istream(74) : see declaration of 'std::basic_istream<_Elem,_Traits>::_Add_vtordisp1'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+     1>C:\Program Files\openFrameworks\libs\poco\include\Poco/StreamConverter.h(144): warning C4250: 'Poco::OutputStreamConverter' : inherits 'std::basic_ostream<_Elem,_Traits>::std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2' via dominance
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\ostream(90) : see declaration of 'std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+         ofxCvFloatImage.cpp
+     1>C:\Program Files\openFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2/flann/flann.hpp(233): warning C4996: 'cv::flann::Index_<T>': was declared deprecated
+                 C:\Program Files\openFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2/flann/flann.hpp(278) : see reference to class template instantiation 'cv::flann::Index_<T>' being compiled
+     1>C:\Program Files\openFrameworks\libs\poco\include\Poco/StreamConverter.h(126): warning C4250: 'Poco::InputStreamConverter' : inherits 'std::basic_istream<_Elem,_Traits>::std::basic_istream<_Elem,_Traits>::_Add_vtordisp1' via dominance
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\istream(74) : see declaration of 'std::basic_istream<_Elem,_Traits>::_Add_vtordisp1'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+     1>C:\Program Files\openFrameworks\libs\poco\include\Poco/StreamConverter.h(144): warning C4250: 'Poco::OutputStreamConverter' : inherits 'std::basic_ostream<_Elem,_Traits>::std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2' via dominance
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\ostream(90) : see declaration of 'std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+         ofxCvColorImage.cpp
+     1>C:\Program Files\openFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2/flann/flann.hpp(233): warning C4996: 'cv::flann::Index_<T>': was declared deprecated
+                 C:\Program Files\openFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2/flann/flann.hpp(278) : see reference to class template instantiation 'cv::flann::Index_<T>' being compiled
+     1>C:\Program Files\openFrameworks\libs\poco\include\Poco/StreamConverter.h(126): warning C4250: 'Poco::InputStreamConverter' : inherits 'std::basic_istream<_Elem,_Traits>::std::basic_istream<_Elem,_Traits>::_Add_vtordisp1' via dominance
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\istream(74) : see declaration of 'std::basic_istream<_Elem,_Traits>::_Add_vtordisp1'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+     1>C:\Program Files\openFrameworks\libs\poco\include\Poco/StreamConverter.h(144): warning C4250: 'Poco::OutputStreamConverter' : inherits 'std::basic_ostream<_Elem,_Traits>::std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2' via dominance
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\ostream(90) : see declaration of 'std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+         ofxCvGrayscaleImage.cpp
+     1>C:\Program Files\openFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2/flann/flann.hpp(233): warning C4996: 'cv::flann::Index_<T>': was declared deprecated
+                 C:\Program Files\openFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2/flann/flann.hpp(278) : see reference to class template instantiation 'cv::flann::Index_<T>' being compiled
+     1>C:\Program Files\openFrameworks\libs\poco\include\Poco/StreamConverter.h(126): warning C4250: 'Poco::InputStreamConverter' : inherits 'std::basic_istream<_Elem,_Traits>::std::basic_istream<_Elem,_Traits>::_Add_vtordisp1' via dominance
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\istream(74) : see declaration of 'std::basic_istream<_Elem,_Traits>::_Add_vtordisp1'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+     1>C:\Program Files\openFrameworks\libs\poco\include\Poco/StreamConverter.h(144): warning C4250: 'Poco::OutputStreamConverter' : inherits 'std::basic_ostream<_Elem,_Traits>::std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2' via dominance
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\ostream(90) : see declaration of 'std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+         ofxCvContourFinder.cpp
+     1>C:\Program Files\openFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2/flann/flann.hpp(233): warning C4996: 'cv::flann::Index_<T>': was declared deprecated
+                 C:\Program Files\openFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2/flann/flann.hpp(278) : see reference to class template instantiation 'cv::flann::Index_<T>' being compiled
+     1>C:\Program Files\openFrameworks\libs\poco\include\Poco/StreamConverter.h(126): warning C4250: 'Poco::InputStreamConverter' : inherits 'std::basic_istream<_Elem,_Traits>::std::basic_istream<_Elem,_Traits>::_Add_vtordisp1' via dominance
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\istream(74) : see declaration of 'std::basic_istream<_Elem,_Traits>::_Add_vtordisp1'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+     1>C:\Program Files\openFrameworks\libs\poco\include\Poco/StreamConverter.h(144): warning C4250: 'Poco::OutputStreamConverter' : inherits 'std::basic_ostream<_Elem,_Traits>::std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2' via dominance
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\ostream(90) : see declaration of 'std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+         ofxCvShortImage.cpp
+     1>C:\Program Files\openFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2/flann/flann.hpp(233): warning C4996: 'cv::flann::Index_<T>': was declared deprecated
+                 C:\Program Files\openFrameworks\addons\ofxOpenCv\libs\opencv\include\opencv2/flann/flann.hpp(278) : see reference to class template instantiation 'cv::flann::Index_<T>' being compiled
+     1>C:\Program Files\openFrameworks\libs\poco\include\Poco/StreamConverter.h(126): warning C4250: 'Poco::InputStreamConverter' : inherits 'std::basic_istream<_Elem,_Traits>::std::basic_istream<_Elem,_Traits>::_Add_vtordisp1' via dominance
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\istream(74) : see declaration of 'std::basic_istream<_Elem,_Traits>::_Add_vtordisp1'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+     1>C:\Program Files\openFrameworks\libs\poco\include\Poco/StreamConverter.h(144): warning C4250: 'Poco::OutputStreamConverter' : inherits 'std::basic_ostream<_Elem,_Traits>::std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2' via dominance
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\ostream(90) : see declaration of 'std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+         ofxCvHaarFinder.cpp
+     1>C:\Program Files\openFrameworks\libs\poco\include\Poco/StreamConverter.h(126): warning C4250: 'Poco::InputStreamConverter' : inherits 'std::basic_istream<_Elem,_Traits>::std::basic_istream<_Elem,_Traits>::_Add_vtordisp1' via dominance
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\istream(74) : see declaration of 'std::basic_istream<_Elem,_Traits>::_Add_vtordisp1'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+     1>C:\Program Files\openFrameworks\libs\poco\include\Poco/StreamConverter.h(144): warning C4250: 'Poco::OutputStreamConverter' : inherits 'std::basic_ostream<_Elem,_Traits>::std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2' via dominance
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\ostream(90) : see declaration of 'std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+         Generating Code...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.0\bin\x86\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"obj\Release\icon.res" icon.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"bin\opencvExample.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:..\..\..\libs\glut\lib\vs /LIBPATH:..\..\..\libs\glfw\lib\vs /LIBPATH:..\..\..\libs\rtAudio\lib\vs /LIBPATH:..\..\..\libs\FreeImage\lib\vs /LIBPATH:..\..\..\libs\freetype\lib\vs /LIBPATH:..\..\..\libs\quicktime\lib\vs /LIBPATH:..\..\..\libs\fmodex\lib\vs /LIBPATH:..\..\..\libs\videoInput\lib\vs /LIBPATH:..\..\..\libs\cairo\lib\vs /LIBPATH:..\..\..\libs\glew\lib\vs /LIBPATH:..\..\..\libs\glu\lib\vs /LIBPATH:..\..\..\libs\openssl\lib\vs /LIBPATH:..\..\..\libs\Poco\lib\vs /LIBPATH:..\..\..\libs\tess2\lib\vs /LIBPATH:..\..\..\addons\ofxOpenCv\libs\opencv\lib\vs "cairo-static.lib" "pixman-1.lib" msimg32.lib OpenGL32.lib GLu32.lib kernel32.lib setupapi.lib Vfw32.lib comctl32.lib glut32.lib rtAudio.lib videoInput.lib libfreetype.lib FreeImage.lib qtmlClient.lib dsound.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib glew32s.lib fmodex_vc.lib glu32.lib crypt32.lib libeay32MD.lib ssleay32MD.lib PocoFoundationmd.lib PocoNetmd.lib PocoUtilmd.lib PocoXMLmd.lib Ws2_32.lib tess2.lib glfw3.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib opencv_ml231.lib opencv_imgproc231.lib opencv_legacy231.lib opencv_core231.lib opencv_objdetect231.lib opencv_highgui231.lib zlib.lib opencv_features2d231.lib opencv_calib3d231.lib opencv_gpu231.lib opencv_haartraining_engine.lib opencv_video231.lib opencv_flann231.lib opencv_contrib231.lib /NODEFAULTLIB:PocoFoundationd.lib /NODEFAULTLIB:atlthunk.lib /NODEFAULTLIB:LIBC.lib /NODEFAULTLIB:LIBCMT /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"bin\opencvExample.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE:NO /NXCOMPAT /IMPLIB:"bin\opencvExample.lib" /MACHINE:X86 /SAFESEH obj\Release\icon.res
+         obj\Release\main.obj
+         obj\Release\ofApp.obj
+         obj\Release\ofxCvImage.obj
+         obj\Release\ofxCvFloatImage.obj
+         obj\Release\ofxCvColorImage.obj
+         obj\Release\ofxCvGrayscaleImage.obj
+         obj\Release\ofxCvContourFinder.obj
+         obj\Release\ofxCvShortImage.obj
+         obj\Release\ofxCvHaarFinder.obj
+         "C:\Program Files\openFrameworks\libs\openFrameworksCompiled\lib\vs\openframeworksLib.lib"
+            Creating library bin\opencvExample.lib and object bin\opencvExample.exp
+         LINK : /LTCG specified but no code generation required; remove /LTCG from the link command line to improve linker performance
+         opencvExample.vcxproj -> C:\Program Files\openFrameworks\apps\myApps\14 - motionDetection\bin\opencvExample.exe
+       PostBuildEvent:
+         xcopy /e /i /y "C:\Program Files\openFrameworks\apps\myApps\14 - motionDetection\..\..\..\export\vs\*.dll" "C:\Program Files\openFrameworks\apps\myApps\14 - motionDetection\bin"
+         :VCEnd
+         C:\Program Files\openFrameworks\apps\myApps\14 - motionDetection\..\..\..\export\vs\Assimp32.dll
+         C:\Program Files\openFrameworks\apps\myApps\14 - motionDetection\..\..\..\export\vs\fmodex.dll
+         C:\Program Files\openFrameworks\apps\myApps\14 - motionDetection\..\..\..\export\vs\fmodexL.dll
+         C:\Program Files\openFrameworks\apps\myApps\14 - motionDetection\..\..\..\export\vs\FreeImage.dll
+         C:\Program Files\openFrameworks\apps\myApps\14 - motionDetection\..\..\..\export\vs\FreeType-6.dll
+         C:\Program Files\openFrameworks\apps\myApps\14 - motionDetection\..\..\..\export\vs\glut32.dll
+         C:\Program Files\openFrameworks\apps\myApps\14 - motionDetection\..\..\..\export\vs\libeay32.dll
+         C:\Program Files\openFrameworks\apps\myApps\14 - motionDetection\..\..\..\export\vs\ssleay32.dll
+         C:\Program Files\openFrameworks\apps\myApps\14 - motionDetection\..\..\..\export\vs\Zlib.dll
+         9 File(s) copied
+     1>Done Building Project "C:\Program Files\openFrameworks\apps\myApps\14 - motionDetection\opencvExample.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:01:10.33
